@@ -28,7 +28,7 @@ Ext.define('CustomApp', {
 	// Create and show a Grid of from given store.
 	_loadGrid: function( myStoryStore ) {
 		var myGrid = Ext.create( 'Rally.ui.grid.Grid', {
-			store: myStore,
+			store: myStoryStore,
             columnCfgs: [
                 'FormattedID','Name','ScheduleState'
             ]
